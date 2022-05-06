@@ -1,0 +1,123 @@
+/* display background */
+.first-display {background-image: url("unsplash.jpg");
+background-size: 100%}
+.second-display {background-image:url("laptop.jpg");
+background-size: 100%;}
+.third-display {background-image: url("sketch.jpg");
+background-size: 100%;}
+.fourth-display {background-image: url("telephone.jpg");
+background-size: 85%;}
+/* cloud */
+.size {width: 50%}
+/* my name */
+.name {font-family: 'Pacifico', cursive;}
+/* web title */
+.heading {font-family: 'Monoton', cursive;
+font-size: 268%;
+color: white;}
+.down {padding-top: 20%;}
+.word {color:#F4FCD9;
+       text-align: center;
+       /* font-family: 'Indie Flower', cursive;} */
+       font-family: 'Sacramento', cursive;
+       }
+
+/* greetings */
+.first {
+  font-family: 'Square Peg', cursive;
+  padding-top:235px;
+          padding-bottom:202px;
+        font-size:823%; }
+
+.picture{border-radius: 100%; width:20%; display: block;
+  margin-left: auto;
+  margin-right: auto; }
+.topic {margin-bottom:10%; }
+/* sub topics */
+.content{color:#F4FCD9;
+         font-size:823%;
+         text-align: center;
+        font-family: 'Square Peg', cursive;
+        padding-top: 8%;
+        padding-bottom: 2%}
+        /* introduction */
+.intro {border-radius: 100%; width:20%; display: block;
+  margin-left: auto;
+  margin-right: auto;}
+.introduction {padding-top: 5%;
+  color:#E5E3C9;
+  font-size: 110%;
+text-align: center;
+font-family: 'Fredoka One', cursive;
+padding-left: 20%;
+padding-right: 20%;}
+        /* skills adjustment */
+.skill {text-decoration: none;
+font-size: 213%;
+}
+.sd {width:78%;
+ padding-left:19% }
+
+ /* grid placing */
+ .placing {align-items: center;}
+/* second display */
+.connections {color:#F4FCD9;
+         font-size:339%;
+        font-family: 'Pacifico', cursive;
+        padding-top: 8%;
+        padding-bottom: 2%;
+       text-align: center;}
+.bt {border-radius: 15%;}
+/* social media */
+.social {width: 5%;
+margin-left: 15%;}
+.social:hover{background-color: #F2F299;}
+/* copyright */
+.bottom {padding-top: 5%;
+  color:#F4FCD9;
+  font-size: 110%;
+text-align: center;
+font-family: 'Caveat', cursive;}
+/* buttons */
+.pushable {
+    background: #00AF91;
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    margin-bottom: 20%;
+  }
+  .front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background:#007965;
+    color: white;
+    transform: translateY(-6px);
+  }
+
+  .pushable:active .front {
+    transform: translateY(-2px);
+  }
+.black{color: black;}
+.vibes {font-family: 'Square Peg', cursive;
+font-size:300%;}
+@media (max-width: 750px) {.first {font-size:550%;}
+.heading {font-family: 'Monoton', cursive;
+font-size: 200%;
+color: white;}
+.first-display {background-image: url("unsplash.jpg");
+background-size: 152%}
+.content {font-size: 550%;}
+.front {
+  display: block;
+  padding: 12px 13px;
+  border-radius: 12px;
+  font-size: 70%;
+  background:#007965;
+  color: white;
+  transform: translateY(-6px);
+}
+.vibes {font-size: 190%}}
