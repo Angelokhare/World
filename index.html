@@ -7,7 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="static/style.css">
     <link rel="icon" href="static/angelo.png">
-    <link rel="stylesheet" href="static/cv.pdf">
+    <link rel="stylesheet" href="cv.pdf">
     <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
     <!-- <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Monoton&display=swap" rel="stylesheet" -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body class="hot">
     <i class="fa-solid fa-user-chef"></i> <!-- uses solid style -->
     <i class="fa-brands fa-github-square"></i> <!-- uses brand style -->
     <div class="first-display" id=home>
@@ -31,19 +31,19 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <button type="button" class="btn btn-outline-success bt"><a class="nav-link active" aria-current="page" href="index.html">Home</a></button>
+                <button type="button" class="mn btn btn-outline-success bt"><a class="nav-link active" aria-current="page" href={{url_for("inter")}}>Home</a></button>
               </li>
               <li class="nav-item">
-                <button type="button" class="btn btn-outline-success bt"><a class="nav-link" href="about.html">About</a></button>
+                <button type="button" class="mn btn btn-outline-success bt"><a class="nav-link" href={{url_for("second")}}>About</a></button>
               </li>
               <li class="nav-item">
-                <button type="button" class="btn btn-outline-success bt"><a class="nav-link" href="projects.html">Projects</a></button>
+                <button type="button" class="mn btn btn-outline-success bt"><a class="nav-link" href={{url_for("third")}}>Projects</a></button>
               </li>
               <li class="nav-item">
-                <button type="button" class="btn btn-outline-success bt"><a class="nav-link" href="contacts.html">Contacts</a></button>
+                <button type="button" class="mn btn btn-outline-success bt"><a class="nav-link" href={{url_for("forth")}}>Contacts</a></button>
               </li>
               <li class="nav-item">
-                <button type="button" class="btn btn-outline-success bt"><a class="nav-link" href="static/cv.pdf">My Cv</a></button>
+                <button type="button" class="mn btn btn-outline-success bt"><a class="nav-link" href={{url_for("resume")}}>My Cv</a></button>
               </li>
             </ul>
             <form class="d-flex">
@@ -64,7 +64,7 @@
           <a href="https://twitter.com/angelokhare"><img class="social" src="static/twitter.png" alt=""></a>
           <a href="https://www.linkedin.com/in/angelo-enamuehen-4b9210238/"><img class="social" src="static/linkedin.png" alt=""></a>
           <a href="https://www.instagram.com/angelokhare/"><img class="social" src="static/instagram.png" alt=""></a>
-          <h5 class= "bottom">©<span> Copyright ANGELOKHARE 2022<br>Design by: ANGELOKHARE</span></h5>
+          <h5 class= "bottom">©<span> Copyright ANGELOKHARE {{copy}}<br>Design by: ANGELOKHARE</span></h5>
         </div>
         </footer>
         <h6>.</h6>
