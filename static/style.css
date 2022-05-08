@@ -1,5 +1,7 @@
 /* display background */
 .mn {margin-top:3%}
+body {margin:0;
+padding:0;}
 .hot {margin:0;
 padding:0;}
 .first-display {background-image: url("unsplash.jpg");
