@@ -2,7 +2,7 @@
 .mn {margin-top:3%}
 .hot {margin:0;
 padding:0;}
-.first-display {background-image: url("unsplash.jpg")
+.first-display {background-image: url("unsplash.jpg");
 background-size:100%;}
 .second-display {background-image:url("laptop.jpg");
 background-size: 100%;}
