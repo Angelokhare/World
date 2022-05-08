@@ -113,7 +113,8 @@ font-size:300%;}
 .heading {font-family: 'Monoton', cursive;
 font-size: 200%;
 color: white;}
-.first-display {background-image: url("unsplash.jpg");
+/* .first-display {background-image: url("unsplash.jpg"); */
+.first-display {background-color:#000;      
 background-size:152%; margin:0px;
       padding:0px;box-sizing: border-box; width:100%; overflow-x: hidden; height:100%;}
 .content {font-size: 550%;}
