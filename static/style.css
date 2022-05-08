@@ -1,9 +1,9 @@
 /* display background */
 .mn {margin-top:3%}
 body {margin:0px;
-      padding:0px;box-sizing: border-box;}
+      padding:0px;box-sizing: border-box; width:100%;}
 .hot {margin:0px;
-       padding:0px;box-sizing: border-box;}
+       padding:0px;box-sizing: border-box; width:100%;}
 .first-display {background-image: url("unsplash.jpg");
 background-size:100%;}
 .second-display {background-image:url("laptop.jpg");
