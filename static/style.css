@@ -125,4 +125,9 @@ background-size:152%;}
   color: white;
   transform: translateY(-6px);
 }
-.vibes {font-size: 190%}}
+.vibes {font-size: 190%}
+.mn {margin-top:3%}
+body {margin:0px;
+      padding:0px;box-sizing: border-box; width:100%;}
+.hot {margin:0px;
+       padding:0px;box-sizing: border-box; width:100%;}}
