@@ -1,9 +1,9 @@
 /* display background */
 .mn {margin-top:3%}
 body {margin:0px;
-      padding:0px;box-sizing: border-box; width:100%;}
+      padding:0px;box-sizing: border-box; width:100%; overflow-x: hidden;}
 .hot {margin:0px;
-       padding:0px;box-sizing: border-box; width:100%;}
+       padding:0px;box-sizing: border-box; width:100%;overflow-x: hidden;}
 .first-display {background-image: url("unsplash.jpg");
 background-size:100%;}
 .second-display {background-image:url("laptop.jpg");
@@ -128,6 +128,6 @@ background-size:152%;}
 .vibes {font-size: 190%}
 .mn {margin-top:3%}
 body {margin:0px;
-      padding:0px;box-sizing: border-box; width:100%;}
+      padding:0px;box-sizing: border-box; width:100%; overflow-x: hidden;}
 .hot {margin:0px;
-       padding:0px;box-sizing: border-box; width:100%;}}
+       padding:0px;box-sizing: border-box; width:100%; overflow-x: hidden;}}
