@@ -1,6 +1,9 @@
 /* display background */
-.first-display {background-image: url("unsplash.jpg");
-background-size: 100%}
+.mn {margin-top:3%}
+.hot {margin:0;
+padding:0;}
+.first-display {background-image: url("unsplash.jpg")
+background-size:100%;}
 .second-display {background-image:url("laptop.jpg");
 background-size: 100%;}
 .third-display {background-image: url("sketch.jpg");
@@ -109,7 +112,7 @@ font-size:300%;}
 font-size: 200%;
 color: white;}
 .first-display {background-image: url("unsplash.jpg");
-background-size: 152%}
+background-size:152%;}
 .content {font-size: 550%;}
 .front {
   display: block;
