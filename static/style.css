@@ -4,8 +4,7 @@ body {margin:0px;
       padding:0px;box-sizing: border-box; width:100%; overflow-x: hidden;}
 .hot {margin:0px;
        padding:0px;box-sizing: border-box; width:100%;overflow-x: hidden;}
-.first-display {background-image: url("unsplash.jpg");
-background-size:100%;}
+.first-display {background-image: url("unsplash.jpg");}
 .second-display {background-image:url("laptop.jpg");
 background-size: 100%;}
 .third-display {background-image: url("sketch.jpg");
@@ -113,8 +112,8 @@ font-size:300%;}
 .heading {font-family: 'Monoton', cursive;
 font-size: 200%;
 color: white;}
-.first-display {background-color:#000;      
-background-size:152%; margin:0px;
+.first-display {background-image:url("unsplash.jpg");    
+ margin:0px;
       padding:0px;box-sizing: border-box; width:100%; overflow-x: hidden; height:100%;}
 .content {font-size: 550%;}
 .front {
