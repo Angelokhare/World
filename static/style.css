@@ -133,6 +133,4 @@ body {margin:0px;
        padding:0px;box-sizing: border-box; width:100%; overflow-x: hidden; height:100vh;}}
 
 @media (max-width: 500px) {
-.heading {font-family: 'Monoton', cursive;
-font-size: 150%;
-color: white;}}
+.heading {font-size: 150%;}}
