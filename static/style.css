@@ -218,3 +218,8 @@ body {margin:0px;
        #second-title {
          font-size: 200%;
   }}
+
+@media only screen and (max-width:350px) {
+         #second-title {
+           font-size: 150%;
+    }}
