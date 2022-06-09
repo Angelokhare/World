@@ -71,8 +71,8 @@ margin-bottom:10%;}
 /* greetings */
 .first {
   font-family: 'Square Peg', cursive;
-  padding-top:235px;
-          padding-bottom:202px;
+  padding-top:50%;
+          padding-bottom:50%;
         font-size:600%; }
 
 .picture{border-radius: 100%; width:20%; display: block;
