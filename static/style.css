@@ -177,7 +177,7 @@ body {margin:0px;
 .hot {margin:0px;
        padding:0px;box-sizing: border-box; width:100%; overflow-x: hidden; height:100vh;}} */
 
-@media only screen and(max-width: 500px) {.heading {font-size: 100%;}}
+/* @media only screen and(max-width: 500px) {.heading {font-size: 100%;}} */
 
 
 @media only screen and (max-width:1220px) {
@@ -216,6 +216,7 @@ body {margin:0px;
         /* #view{visibility: visible;} */
         header {visibility: hidden;}
        #view {display: block;}}
+.unspoke{display:none;}
 
 @media only screen and (max-width:500px) {
        #second-title {
