@@ -220,7 +220,7 @@ body {margin:0px;
         /* #view{visibility: visible;} */
         header {visibility: hidden;}
        #view {display: block;}}
-.content{padding-top: 23%;}
+.content{margin-top: 10%;}
 .unspoke{display:none;}
 
 @media only screen and (max-width:500px) {
