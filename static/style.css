@@ -4,7 +4,7 @@ header {
   align-items: center;
   padding: 30px 7%;
 }
-.unspoke{display: none;}
+.unspoke{background-color:black;}
 #view {display: none;}
 #myVideo {
   position: fixed;
