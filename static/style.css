@@ -21,7 +21,8 @@ header {
 #second-title {
   margin-right: auto;
  font-family: 'Monoton', cursive;
-  font-size: 235%;
+  /*font-size: 235%; */
+  font-size: 6vw;
   color: white;
 }
 .heading{
@@ -221,12 +222,3 @@ body {margin:0px;
         header {visibility: hidden;}
        #view {display: block;}}
 
-@media only screen and (max-width:500px) {
-       #second-title {
-         font-size: 200%;
-  }}
-
-@media only screen and (max-width:350px) {
-         #second-title {
-           font-size: 150%;
-    }}
