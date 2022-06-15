@@ -1,0 +1,243 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 2%;
+}
+.unspoke{display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 7%;
+  background-color:#354259;}
+
+#view {display: none;}
+#myVideo {
+  position: fixed;
+  width: 100%;
+  opacity: 90%;
+  z-index: -1;
+}
+
+.remove-underline{
+  text-decoration: none;
+  color: white;
+}
+.project-name{
+  padding-top: 5%;
+  font-size: 5vw;
+  /* color: white; */
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+}
+
+#mydancing{display: none;}
+#second-title {
+  margin-right: auto;
+ font-family: 'Monoton', cursive;
+  /*font-size: 235%; */
+  font-size: 6vw;
+  color: white;
+}
+.heading{
+  margin-right: auto;
+ font-family: 'Monoton', cursive;
+  font-size: 315%;
+  color: white;
+}
+.docking {
+  list-style: none;
+}
+#ff {border-radius: 50px;
+  /* border: 2px; */
+  padding: 0.5rem 1rem;}
+.docking li {
+  display: inline-block;
+  padding: 0px 30px;
+}
+.link-line {text-decoration: none;
+color: white;}
+
+/* display background */
+.mn {margin-top:3%}
+body {margin:0px;
+      padding:0px;box-sizing: border-box; width:100%; overflow-x: hidden; height:100vh;}
+.hot {margin:0px;
+       padding:0px;box-sizing: border-box; width:100%;overflow-x: hidden; height:100vh;}
+/* .first-display {background-image: url("unsplash.jpg"); background-size: 100%;} */
+.second-display {background-image:url("laptop.jpg");
+background-size: 100%;}
+.third-display {background-image: url("sketch.jpg");
+background-size: 100%;}
+.fourth-display {background-image: url("telephone.jpg");
+background-size: 85%;}
+/* cloud */
+.size {width: 50%}
+/* my name */
+.name {font-family: 'Pacifico', cursive;}
+/* web title */
+.down {padding-top: 20%;}
+#unique-color {color: black;}
+.word {
+  color:#F4FCD9;
+       text-align: center;
+       /* font-family: 'Indie Flower', cursive;} */
+       /* font-family: 'Sacramento', cursive; */
+       font-family: 'Merienda', cursive;
+       font-size: 150%;
+       }
+.gh {margin-left: auto;
+margin-right:auto;
+display: block;
+margin-bottom:10%;}
+/* greetings */
+.first {
+  font-family: 'Square Peg', cursive;
+  padding-top:15%;
+          padding-bottom:15%;
+        font-size:600%; }
+
+.picture{border-radius: 100%; width:20%; display: block;
+  margin-left: auto;
+  margin-right: auto; }
+.topic {margin-bottom:10%; }
+/* sub topics */
+/* .content{color:#F4FCD9; */
+         /* font-size:823%; */
+         /* font-size: 15vw; */
+         /* text-align: center; */
+        /* font-family: 'Square Peg', cursive; */
+        /* padding-top: 5%; */
+        /* padding-bottom: 10%} */
+        /* introduction */
+.intro {border-radius: 100%; width:20%; display: block;
+  margin-left: auto;
+  margin-right: auto;}
+.introduction {padding-top: 5%;
+  color:#E5E3C9;
+  font-size: 110%;
+text-align: center;
+font-family: 'Fredoka One', cursive;
+padding-left: 20%;
+padding-right: 20%;}
+        /* skills adjustment */
+.skill {text-decoration: none;
+font-size: 213%;
+}
+.sd {width:78%;
+ padding-left:19% }
+
+ /* grid placing */
+ .placing {align-items: center;}
+/* second display */
+.connections {color:#F4FCD9;
+         font-size:339%;
+        font-family: 'Pacifico', cursive;
+        padding-top: 8%;
+        padding-bottom: 2%;
+       text-align: center;}
+.bt {border-radius: 15%;}
+/* social media */
+.social {width: 5%;
+margin-left: 15%;}
+.social:hover{background-color: #F2F299;}
+/* copyright */
+.bottom {padding-top: 5%;
+  color:#F4FCD9;
+  font-size: 110%;
+text-align: center;
+font-family: 'Caveat', cursive;}
+/* buttons */
+.pushable {
+    background: #00AF91;
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    margin-bottom: 20%;
+  }
+  .front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background:#007965;
+    color: white;
+    transform: translateY(-6px);
+  }
+
+  .pushable:active .front {
+    transform: translateY(-2px);
+  }
+.black{color: black;}
+.vibes {font-family: 'Square Peg', cursive;
+font-size:300%;}
+/* @media (max-width: 750px) {.first {font-size:550%;}
+.heading {font-family: 'Monoton', cursive;
+font-size: 200%;
+color: white;}
+.first-display {background-image:url("unsplash.jpg");
+ margin:0px;
+      padding:0px;box-sizing: border-box; width:100%; overflow-x: hidden;}
+.content {font-size: 550%;}
+.front {
+  display: block;
+  padding: 12px 13px;
+  border-radius: 12px;
+  font-size: 70%;
+  background:#007965;
+  color: white;
+  transform: translateY(-6px);
+}
+.vibes {font-size: 190%}
+.mn {margin-top:3%}
+body {margin:0px;
+      padding:0px;box-sizing: border-box; width:100%; overflow-x: hidden; height:100vh;}
+.hot {margin:0px;
+       padding:0px;box-sizing: border-box; width:100%; overflow-x: hidden; height:100vh;}} */
+
+/* @media only screen and(max-width: 500px) {.heading {font-size: 100%;}} */
+
+
+@media only screen and (max-width:1220px) {
+  #myVideo {
+    position: fixed;
+    width: 125%;
+    opacity: 90%;
+    z-index: -1;}
+.heading {font-size: 291%;
+  } }
+@media only screen and (max-width:1060px) {
+  .heading{font-size: 279%;}}
+
+@media only screen and (max-width:1018px) {
+    .heading{font-size: 245%;}}
+@media only screen and (max-width:960px) {
+        .heading{font-size: 230%;}
+        .docking li {
+          display: inline-block;
+          padding: 0px 15px;
+        }  }
+@media only screen and (max-width:980px) {
+    #myVideo {
+      position: fixed;
+      width: 152%;
+      opacity: 90%;
+    } }
+@media only screen and (max-width:810px) {
+      #mydancing{display: block;
+        position: fixed;
+      width: 100%;
+      opacity: 90%;
+      z-index: -1;}
+      #myVideo{display: none;} }
+@media only screen and (max-width:846px) {
+        /* #view{visibility: visible;} */
+        header {visibility: hidden;}
+       #view {display: block;}}
+
+@media only screen and (min-width:748px) {
+#projects{
+  padding-top: 10%;
+}
+}
