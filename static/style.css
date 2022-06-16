@@ -83,8 +83,18 @@ background-size: 85%;}
        /* font-family: 'Indie Flower', cursive;} */
        /* font-family: 'Sacramento', cursive; */
        font-family: 'Merienda', cursive;
-       font-size: 150%;
+       /* font-size: 150%; */
+       font-size: 3vw;
        }
+.hello{
+  text-align: center;
+  font-size: 10vw;
+  font-family: 'Square Peg', cursive;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  color:#F4FCD9;
+}
+
 .gh {margin-left: auto;
 margin-right:auto;
 display: block;
@@ -145,10 +155,26 @@ margin-left: 15%;}
 .social:hover{background-color: #F2F299;}
 /* copyright */
 .bottom {padding-top: 5%;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  margin-top: 10%;
+  padding-bottom: 1%;
   color:#F4FCD9;
   font-size: 110%;
 text-align: center;
+background: rgba(0, 0, 0, 0.5);
+/* position: fixed;
+bottom: 0%; */
 font-family: 'Caveat', cursive;}
+/* footer { */
+  /* position: fixed; */
+  /* padding: 0px 10px 0px 0px; */
+  /* bottom: 0; */
+  /* width: 100%; */
+  /* Height of the footer */
+  /* height: 100%; */
+  /* background: rgba(0, 0, 0, 0.5);} */
+
 /* buttons */
 /* .pushable {
     background: #00AF91;
@@ -176,7 +202,11 @@ font-family: 'Caveat', cursive;}
 .vibes {font-family: 'Square Peg', cursive;
 font-size:300%;}
 
-
+@media only screen and (max-width:600px) {
+  .hello{
+    padding-top: 0%;
+  }
+  }
 @media only screen and (max-width:1220px) {
   #myVideo {
     position: fixed;
@@ -214,3 +244,4 @@ font-size:300%;}
   padding-top: 10%;
 }
 }
+
