@@ -5,15 +5,9 @@ header {
   padding: 30px 2%;
 }
 
-
-video::slotted::-webkit-media-controls-container{
-      display:none !important;
-      visibility: hidden!important;
-      opacity: 0 !important;
-     -webkit-appearance: none !important;
+video::-webkit-media-controls-overlay-play-button {
+      display: none;
     }
-
-:host::shadow::-webkit-media-controls-container{/* hide the element */}
 
 .unspoke{display: flex;
   justify-content: space-between;
