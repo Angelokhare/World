@@ -123,8 +123,11 @@ padding-right: 20%;}
 .skill {text-decoration: none;
 font-size: 213%;
 }
-.sd {width:78%;
- padding-left:19% }
+/* .sd {width:78%;
+ padding-left:19% } */
+
+ .sd {width:93%;
+  padding-left:7% }
 
  /* grid placing */
  .placing {align-items: center;}
