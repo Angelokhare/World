@@ -40,7 +40,10 @@ header {
   position: fixed;
   width: 100%;
   opacity: 90%;
-  z-index: -1;
+  z-index: -1;}
+
+#myVideo::-webkit-media-controls {
+    display: none !important;
 }
 #mydancing{display: none;}
 #second-title {
@@ -71,10 +74,10 @@ color: white;}
 
 /* display background */
 .mn {margin-top:3%}
-body {margin:0px;
+/* body {margin:0px;
       padding:0px;box-sizing: border-box; width:100%; overflow-x: hidden; height:100vh;}
 .hot {margin:0px;
-       padding:0px;box-sizing: border-box; width:100%;overflow-x: hidden; height:100vh;}
+       padding:0px;box-sizing: border-box; width:100%;overflow-x: hidden; height:100vh;} */
 /* .first-display {background-image: url("unsplash.jpg"); background-size: 100%;} */
 .second-display {background-image:url("laptop.jpg");
 background-size: 100%;}
@@ -241,6 +244,9 @@ body {margin:0px;
       width: 100%;
       opacity: 90%;
       z-index: -1;}
+ #mydancing::-webkit-media-controls {
+    display: none !important;
+}
       #myVideo{display: none;} }
 @media only screen and (max-width:846px) {
         /* #view{visibility: visible;} */
