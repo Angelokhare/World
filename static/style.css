@@ -20,7 +20,7 @@ header {
 
 .remove-underline{
   text-decoration: none;
-  color: white;
+  color: black;
 }
 .project-name{
   padding-top: 5%;
@@ -41,7 +41,7 @@ header {
 .heading{
   margin-right: auto;
  font-family: 'Monoton', cursive;
-  font-size: 315%;
+  font-size: 5vw;
   color: white;
 }
 .docking {
@@ -59,10 +59,10 @@ color: white;}
 
 /* display background */
 .mn {margin-top:3%}
-body {margin:0px;
+/* body {margin:0px;
       padding:0px;box-sizing: border-box; width:100%; overflow-x: hidden; height:100vh;}
 .hot {margin:0px;
-       padding:0px;box-sizing: border-box; width:100%;overflow-x: hidden; height:100vh;}
+       padding:0px;box-sizing: border-box; width:100%;overflow-x: hidden; height:100vh;} */
 /* .first-display {background-image: url("unsplash.jpg"); background-size: 100%;} */
 .second-display {background-image:url("laptop.jpg");
 background-size: 100%;}
@@ -147,7 +147,7 @@ margin-left: 15%;}
 text-align: center;
 font-family: 'Caveat', cursive;}
 /* buttons */
-.pushable {
+/* .pushable {
     background: #00AF91;
     border-radius: 12px;
     border: none;
@@ -168,35 +168,10 @@ font-family: 'Caveat', cursive;}
 
   .pushable:active .front {
     transform: translateY(-2px);
-  }
+  } */
 .black{color: black;}
 .vibes {font-family: 'Square Peg', cursive;
 font-size:300%;}
-/* @media (max-width: 750px) {.first {font-size:550%;}
-.heading {font-family: 'Monoton', cursive;
-font-size: 200%;
-color: white;}
-.first-display {background-image:url("unsplash.jpg");
- margin:0px;
-      padding:0px;box-sizing: border-box; width:100%; overflow-x: hidden;}
-.content {font-size: 550%;}
-.front {
-  display: block;
-  padding: 12px 13px;
-  border-radius: 12px;
-  font-size: 70%;
-  background:#007965;
-  color: white;
-  transform: translateY(-6px);
-}
-.vibes {font-size: 190%}
-.mn {margin-top:3%}
-body {margin:0px;
-      padding:0px;box-sizing: border-box; width:100%; overflow-x: hidden; height:100vh;}
-.hot {margin:0px;
-       padding:0px;box-sizing: border-box; width:100%; overflow-x: hidden; height:100vh;}} */
-
-/* @media only screen and(max-width: 500px) {.heading {font-size: 100%;}} */
 
 
 @media only screen and (max-width:1220px) {
@@ -205,18 +180,13 @@ body {margin:0px;
     width: 125%;
     opacity: 90%;
     z-index: -1;}
-.heading {font-size: 291%;
-  } }
-@media only screen and (max-width:1060px) {
-  .heading{font-size: 279%;}}
+/* .heading {font-size: 291%; */
+  } 
 
-@media only screen and (max-width:1018px) {
-    .heading{font-size: 245%;}}
-@media only screen and (max-width:960px) {
-        .heading{font-size: 230%;}
+@media only screen and (max-width:963px) {
         .docking li {
           display: inline-block;
-          padding: 0px 15px;
+          padding: 0px 20px;
         }  }
 @media only screen and (max-width:980px) {
     #myVideo {
