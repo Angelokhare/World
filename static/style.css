@@ -4,6 +4,17 @@ header {
   align-items: center;
   padding: 30px 2%;
 }
+
+
+video::slotted::-webkit-media-controls-container{
+      display:none !important;
+      visibility: hidden!important;
+      opacity: 0 !important;
+     -webkit-appearance: none !important;
+    }
+
+:host::shadow::-webkit-media-controls-container{/* hide the element */}
+
 .unspoke{display: flex;
   justify-content: space-between;
   align-items: center;
